@@ -1,0 +1,9 @@
+# The Russian language pack bundle patch.
+#
+# One row: the browser-side language pack. Activation is service-availability
+# driven, so no ordering against the locale service is required here — the row
+# declares `locale` in its own `inject` list and waits for it.
+
+- insert:
+    - id: locale-ru
+      name: 'dsh-locale-ru'

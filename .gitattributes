@@ -1,0 +1,4 @@
+# Normalize line endings so the repository stays LF regardless of the platform
+# a contribution comes from. The BOM that tools/extract-bundles.ps1 needs is part
+# of that file's content and is preserved.
+* text=auto eol=lf

@@ -1,0 +1,11 @@
+{
+  "failed": "Cannot display PDF: {message}",
+  "loading": "Rendering document...",
+  "pageImage": "PDF page {page}",
+  "password": "This PDF requires a password; password-protected previews are not supported.",
+  "rendering": "Rendering page…",
+  "retry": "Retry",
+  "title": "PDF",
+  "unsupported": "PDF preview requires the complete file contents.",
+  "workerFailed": "The PDF rendering process could not continue. Please retry."
+}

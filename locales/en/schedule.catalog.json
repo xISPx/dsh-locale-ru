@@ -1,0 +1,18 @@
+{
+  "delete.action": "Delete",
+  "delete.label": "Delete reminder: {title}",
+  "delete.pending": "Deleting…",
+  "frequency.every": "Every {value} {unit}",
+  "frequency.once": "Once",
+  "hover.more": "{count} more",
+  "list.aria": "Active reminders",
+  "list.error": "Could not load reminders.",
+  "list.loading": "Loading reminders…",
+  "list.nextRun": "Next run",
+  "list.open": "Open reminder details: {title}",
+  "list.retry": "Retry",
+  "mark.aria": "{count} scheduled tasks",
+  "trigger.label": "Reminders",
+  "trigger.one": "{count} reminder",
+  "trigger.other": "{count} reminders"
+}

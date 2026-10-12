@@ -1,0 +1,53 @@
+{
+  "name": "dsh-locale-ru",
+  "version": "1.0.0",
+  "description": "Russian language pack for the DeepSeek Harness web GUI",
+  "type": "module",
+  "main": "lib/index.js",
+  "exports": {
+    ".": {
+      "default": "./lib/index.js"
+    },
+    "./client": {
+      "default": "./lib/client.js"
+    },
+    "./package.json": "./package.json"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "inject": [
+        "@deepseek-ai/dsh-client-locale"
+      ],
+      "platform": "web"
+    }
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xISPx/dsh-locale-ru.git"
+  },
+  "homepage": "https://github.com/xISPx/dsh-locale-ru#readme",
+  "bugs": {
+    "url": "https://github.com/xISPx/dsh-locale-ru/issues"
+  },
+  "keywords": [
+    "dsh",
+    "deepseek-harness",
+    "localization",
+    "i18n",
+    "russian",
+    "cordis",
+    "plugin"
+  ],
+  "peerDependencies": {
+    "@deepseek-ai/cordis": "~4.0.4"
+  },
+  "files": [
+    "lib/index.js",
+    "lib/client.js",
+    "cordis.patch.yml"
+  ]
+}

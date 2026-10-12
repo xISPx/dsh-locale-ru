@@ -1,0 +1,20 @@
+{
+  "apiKey": "API key",
+  "apiKeyHint": "Stored outside the settings file. Leave blank to keep the current key.",
+  "apiKeySet": "A key is configured.",
+  "apiKeyUnset": "No key is configured; only conversations using a DeepSeek Account model can search, through the default endpoint.",
+  "baseUrl": "Endpoint",
+  "baseUrlHint": "Leave blank to use the provider default.",
+  "description": "Set up the DeepSeek search provider.",
+  "invalidNumber": "Enter a number, or leave blank to use the default.",
+  "maxUses": "Max searches per request",
+  "maxUsesHint": "How many times one request may search before it must answer.",
+  "overridden": "Overridden",
+  "readOnly": "This deployment stores settings read-only.",
+  "reset": "Reset to default",
+  "save": "Save",
+  "saveFailed": "The deployment did not accept these values; they were left for you to correct.",
+  "saving": "Saving…",
+  "title": "Web search",
+  "unavailable": "This plugin is not loaded, so it cannot be configured right now."
+}

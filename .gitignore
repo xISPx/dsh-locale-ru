@@ -1,0 +1,12 @@
+# Dependencies (installed by the DSH profile, never committed)
+node_modules/
+
+# Per-namespace translation staging area; locales/ru.json is the source of truth
+work/
+
+# Editor and OS noise
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.log

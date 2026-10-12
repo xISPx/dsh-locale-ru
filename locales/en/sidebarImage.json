@@ -1,0 +1,7 @@
+{
+  "failed": "This image could not be displayed.",
+  "loading": "Rendering document...",
+  "preview": "Image preview: {name}",
+  "title": "Image",
+  "unsupported": "Image preview requires the complete file contents."
+}
