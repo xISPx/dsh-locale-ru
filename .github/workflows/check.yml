@@ -1,0 +1,30 @@
+name: check
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Keys, placeholders and edge whitespace
+        run: node tools/check-ru.mjs --merged
+
+      - name: Terminology and style
+        run: node tools/lint-ru.mjs
+
+      - name: The committed bundle matches the catalog
+        run: |
+          node build.mjs
+          git diff --exit-code -- lib/client.js
+
+      - name: Offline bundle self-test
+        run: node tools/selftest.mjs
